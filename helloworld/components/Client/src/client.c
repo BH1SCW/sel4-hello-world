@@ -3,7 +3,11 @@
 #include <camkes.h>
 
 int run(void) {
-  const char *s = "hello world";
+  const char *s = "Hello Emacs";
+  iface_print(s);
+  iface_print(s);
+  iface_print(s);
+  iface_print(s);
   iface_print(s);
   return 0;
 }

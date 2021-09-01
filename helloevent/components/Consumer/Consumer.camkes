@@ -1,0 +1,6 @@
+/* apps/helloevent/components/Consumer/Consumer.camkes */
+
+component Consumer {
+  control;
+  consumes MyEvent s;
+}

@@ -1,0 +1,6 @@
+/* apps/helloevent/components/Emitter/Emitter.camkes */
+
+component Emitter {
+  control;
+  emits MyEvent e;
+}
